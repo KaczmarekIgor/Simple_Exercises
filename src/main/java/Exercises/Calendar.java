@@ -8,7 +8,7 @@ public class Calendar {
         System.out.println(" Kalendarz 2020 ");
 // Object
         LocalDate date = LocalDate.now();
-// currently month and day
+// Currently month and day
         int today = date.getDayOfMonth();
         int month = date.getMonthValue();
 
@@ -30,8 +30,5 @@ public class Calendar {
             }
         }
 
-
     }
-
-
 }
