@@ -25,3 +25,14 @@ public class Palindrome {
         }
     }
 }
+// SecendMethods 
+   Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        String result = new StringBuffer(s).reverse().toString();
+        System.out.println(result);
+        if ( s.equals(result)) {
+            System.out.println("is palindrome");
+        } else
+            System.out.println(" isn't palindrome");
+    }
+}
